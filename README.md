@@ -14,3 +14,4 @@ If you found any errors contact me on Discord or Email:
 Discord: ILOVEBULLY999#9428  
 Email: henrique130206@gmail.com.
 The Actual Version Of The Program contains a Script Editor and a DDOS Tool!
+I do Also Include the Batch File so if you Want To Improve it Even More just leave my name in the credits. 
