@@ -1,0 +1,47 @@
+@echo off
+color 09
+cls
+:a
+cls
+echo      ______  ________  ______  ________ ________________    
+echo     /  __  \/   ____/ /  __  \/    ___//   ____// ______\  BBBBBB  RRRRRR
+echo    /  / /  /  ___/   /  / /  /\____  \/  ___/  / /         B----B  R____/
+echo   /  /_/  /  /_____ /  /_/  /_____/  /  /_____/ \_______   B    B  R   \
+echo  /_______/________//_______//_______/________/\________/   BBBBBB  R    \
+set/p pwd=New Password:
+set/p pwdc=Confirm:
+if %pwdc% == %pwd% goto Login
+goto DENIED
+
+:DENIED
+cls
+echo ACCESS DENIED
+pause (greatthansign)nul
+goto a
+
+:DENIED2
+cls
+echo ACCESS DENIED
+pause (greatthansign)nul
+goto Login
+
+:Login
+cls
+set/p PassLog=Login Creds::
+if %PassLog% == %pwdc% goto Intro
+goto DENIED2
+:Intro
+cls
+echo 1. /Dedsec/:Script Editor/
+echo 2. /Dedsec/:SHUTDOWN/
+set/p directory=/Dedsec/:
+if directory == Script Editor goto ScriptEd
+if directory == SHUTDOWN exit
+:ScriptEd
+cls
+color 0a
+echo Welcome To The Dedsec Script_Editor
+echo ctrl + z delay + enter=save and exit
+set/p name=Script::
+copy con %name%
+if exist %name% copy %name% + con
