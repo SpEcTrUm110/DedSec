@@ -13,4 +13,4 @@ And if you Download it and extract it do the same thing but rename the folder to
 If you found any errors contact me on Discord or Email:
 Discord: ILOVEBULLY999#9428  
 Email: henrique130206@gmail.com.
-The Actual Version Of The Program contains a Script Editor, A DDOS Tool and A Brute Force Tool!
+The Actual Version Of The Program contains a Script Editor and a DDOS Tool!
