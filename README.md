@@ -6,7 +6,7 @@ The Program does not include metasploit-framework or any exploiting tool, why? E
 1. Some Programs in it's full versions are paid.
 2. Antivirus Softwares slay them.
 3. If i put exploiting tools on my program, alot of people would use the tools in a bad way, and i'm 12, not 24, i will not solve any problem that includes people messing around with stuff like penetrating private systems.
-AND ANOTHER THING
+                      AND ANOTHER THING!
 If you Clone it move or paste the Folder on your Desktop Folder.
 And if you Download it and extract it do the same thing but rename the folder to "DedSec-BR" because it usually comes like this:
 "DedSec-BR-master"
